@@ -1,0 +1,100 @@
+:root, [data-bs-theme=light] {
+  --bs-secondary: #30849E;
+  --bs-secondary-rgb: 48,132,158;
+  --bs-secondary-text-emphasis: #13353F;
+  --bs-secondary-bg-subtle: #D6E6EC;
+  --bs-secondary-border-subtle: #ACCED8;
+}
+
+.btn-secondary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #30849E;
+  --bs-btn-border-color: #30849E;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #4F96AD;
+  --bs-btn-hover-border-color: #4590A8;
+  --bs-btn-focus-shadow-rgb: 7,20,24;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #599DB1;
+  --bs-btn-active-border-color: #4590A8;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #30849E;
+  --bs-btn-disabled-border-color: #30849E;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #30849E;
+  --bs-btn-border-color: #30849E;
+  --bs-btn-focus-shadow-rgb: 48,132,158;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #30849E;
+  --bs-btn-hover-border-color: #30849E;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #30849E;
+  --bs-btn-active-border-color: #30849E;
+  --bs-btn-disabled-color: #30849E;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #30849E;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.pt-3 {
+  padding-top: 1rem !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+.pb-2 {
+  padding-bottom: .5rem !important;
+}
+
+@media (min-width: 768px) {
+  .pb-md-4 {
+    padding-bottom: 1.5rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .py-lg-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .p-xl-4 {
+    padding: 1.5rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .py-xl-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
